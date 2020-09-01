@@ -197,7 +197,7 @@ section {
     justify-content: center;
     background:  url(../images/footer.png);
     background-size:cover;
-    animation: footerbackground 5s infinite;
+    animation: footerbackground 7s infinite;
     height: 130px;
     width: 100%;
     transform: scaleY(1.1);
