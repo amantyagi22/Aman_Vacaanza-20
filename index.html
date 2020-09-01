@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacanza '20</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel = "icon" href = "images/SG-02.png" type = "image/x-icon"> 
+</head>
+<body>
+    
+    <!-- logo and heading -->
+    <section id="header">
+        <div class="csi-logo">
+            <a href="https://csiakgec.in/index"><img src="images/logo.png" class="logo"></a>
+        </div>
+        <div class="header-logo">
+            <br><br><br>
+            <img src="images/SG-02.png" alt="Vacanza_logo">
+        </div>
+        <div class="header-text">
+            <h1>VACANZA'20</h1>
+        </div>
+        <div class="register">
+            <a href="#">ENTER THE GAME</a>
+            <!-- <a href="#">START QUIZ</a> -->
+        </div>
+    </section>
+
+    <!-- navigation menu -->
+    
+    <nav id="topNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ROUNDS</a></li>
+            <li><a href="#">QUIZZES</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var topNav = document.getElementById("topNav");
+
+        topNav.style.right="-310px";
+        menuBtn.onclick = function(){
+            if(topNav.style.right=="-310px"){
+                topNav.style.right="60px";
+            }else {
+                topNav.style.right="-310px";
+            }
+        }
+    </script>
+    
+    <!-- Rounds -->
+
+    <section>
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <h3>Chapter 1</h3>
+
+                    <p>Round 1 comprises of 4 domains from which participants have to select <br> at least 2 domains and  can choose maximum of 4 domains for more <br> points. The more domain you opt for,  the more you score.
+                        <br>
+                        <b>The field are as follows:</b>
+                        <br>
+                        Vintage Photography | Leaf Collage | Origami Art | Face Mask Art
+                    </p>
+                    <img src="images/round1.png">
+                </div>
+                
+                <div class="box-2">
+                    <img src="images/round2.png">
+                    <h3>Chapter 2</h3>
+
+                    <p>Test your knowledge just by answering some basic questions and gain <br> points easily.Round 2 contains quiz questions based on <br> popular TV series and sports.
+                        <br>
+                        <b>The field are as follows:</b> 
+                        <br>
+                        Football | Stranger Things | Cricket | F.R.I.E.N.D.S
+                    </p>
+                </div>
+                
+                <div class="box">
+                    <h3>Chapter 3</h3>
+                    
+                    <p>The final round consists of making an interesting and astonishing <br> magic trick video which might force people to say “How did you <br>  do that!”. The best and the most  surprising video will be selected <br> as the winner.
+                    <img src="images/round3.png"></p>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <!-- footer -->
+    <div class="footeranimation">
+        <div class="footerLogos">
+            <a href="#"><img src="images/twitter.png"></a>
+            
+            <a href="https://www.instagram.com/csi_akgec/"><img src="images/instagram.png"></a>
+            
+            <a href="https://www.facebook.com/csi.akg/"><img src="images/facebook.png"></a>
+        </div>
+    </div>
+    
+    <!-- copyright -->
+    <div class="copyright">
+        <h6>&copy; CSI:AKGEC 2019</h6>
+    </div>
+</body>
+</html>
